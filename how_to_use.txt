@@ -1,0 +1,16 @@
+git clone https://github.com/HunterX461/quantpairs-lab.git
+cd quantpairs-lab
+
+# Backend
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python stat_arb_pairs.py        # fetch data + cointegration
+uvicorn api_server:app --reload --port 8000
+
+# Frontend (new terminal)
+cd quant
+npm install
+npm run dev
+
+Then open the Vite URL (usually http://localhost:5173).
