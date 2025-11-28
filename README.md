@@ -9,6 +9,19 @@ It ingests historical equity data, detects **cointegrated pairs**, and runs **me
 
 ---
 
+## 📸 Application Preview
+
+### Dashboard
+![QuantPairs Lab Dashboard](./screenshots/dashboard.png)
+
+### Backtest Studio
+![QuantPairs Lab Backtest](./screenshots/backtest.png)
+
+### Settings
+![QuantPairs Lab Settings](./screenshots/settings.png)
+
+---
+
 ## Features
 
 ### 🔢 Data & Research Engine (Backend)
