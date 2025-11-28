@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+statsmodels
+yfinance
+scipy
+python-dateutil
